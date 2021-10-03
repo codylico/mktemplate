@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+# SPDX-License-Identifier: Unlicense
 import os.path
 import sys
 import inspect
@@ -191,7 +192,7 @@ filters['lstrip'] = str.lstrip
 filters['rstrip'] = str.rstrip
 filters['swapcase'] = str.swapcase
 filters['title'] = str.title
-  
+
 def warn(message):
   print('%s:%i: warning: %s'%(shortname,shortline,message),file=sys.stderr)
   return
